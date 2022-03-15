@@ -1,6 +1,6 @@
 package Animal;
 
-public abstract class Animal implements EmitirSom{
+public abstract class Animal implements EmitirSom, Comer{
 
     private String nome;
     private String cor;
@@ -34,6 +34,10 @@ public abstract class Animal implements EmitirSom{
 
     public void setEspecie(String especie) {
         this.especie = especie;
+    }
+
+    public void comerAnimal(Animal objeto){
+        objeto.comer();
     }
 
 }

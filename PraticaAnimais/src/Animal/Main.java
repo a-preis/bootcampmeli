@@ -11,5 +11,8 @@ public class Main {
         cachorro1.emiteSom();
         gato1.emiteSom();
         vaca1.emiteSom();
+
+        gato1.comerAnimal(gato1);
+        vaca1.comerAnimal(vaca1);
     }
 }
