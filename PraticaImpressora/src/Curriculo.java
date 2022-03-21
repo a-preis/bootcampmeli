@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Curriculo extends Documento{
+public class Curriculo extends Documento {
 
     private String nome;
     private String telefone;
@@ -14,7 +14,7 @@ public class Curriculo extends Documento{
         this.email = email;
     }
 
-    public void incluiHabilidade(String novaHabilidade){
+    public void incluiHabilidade(String novaHabilidade) {
         habilidades.add(novaHabilidade);
     }
 

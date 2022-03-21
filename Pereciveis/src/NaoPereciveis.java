@@ -1,4 +1,4 @@
-public class NaoPereciveis extends Produtos{
+public class NaoPereciveis extends Produtos {
 
     String tipo;
 

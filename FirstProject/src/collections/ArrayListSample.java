@@ -1,4 +1,5 @@
 package collections;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,12 +14,12 @@ public class ArrayListSample {
         // Usando iterator posso interagir com o mey array enquanto eu adiciono novos elementos, mas como tem
         // while, ele é mais pesado
         Iterator<String> iterator = arrayLista.iterator();
-         do {
+        do {
             System.out.println(iterator.next());
-        } while(iterator.hasNext());
+        } while (iterator.hasNext());
 
         // Usando forEach
-        for(String s: arrayLista) {
+        for (String s : arrayLista) {
             System.out.println(s);
         }
 
@@ -30,8 +31,6 @@ public class ArrayListSample {
 
         // retorna true / false se ele tem ou não aquele item
         arrayLista.contains("juliana");
-
-
 
 
     }

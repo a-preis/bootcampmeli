@@ -13,8 +13,8 @@ public class PrimeiraClasse {
         int linhaMin = 0;
         int linhaMax = 0;
 
-        for (int i=0; i <temp.length; i++) {
-            for (int j=0; j<temp[i].length; j++) {
+        for (int i = 0; i < temp.length; i++) {
+            for (int j = 0; j < temp[i].length; j++) {
                 if (temp[i][j] > maxTemp) {
                     maxTemp = temp[i][j];
                     linhaMax = i;
@@ -26,8 +26,8 @@ public class PrimeiraClasse {
             }
         }
 
-        System.out.println("A cidade com a maior temperatura é: "+ cidades[linhaMax]);
-        System.out.println("A cidade com a maior temperatura é: "+ cidades[linhaMin]);
+        System.out.println("A cidade com a maior temperatura é: " + cidades[linhaMax]);
+        System.out.println("A cidade com a maior temperatura é: " + cidades[linhaMin]);
 
     }
 }

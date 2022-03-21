@@ -1,6 +1,6 @@
 package Banco;
 
-public class Cobradores extends Cliente{
+public class Cobradores extends Cliente {
 
     SaqueEmDinheiro saqueEmDinheiro = new SaqueEmDinheiro();
     ConsultaEmSaldo consultaEmSaldo = new ConsultaEmSaldo();

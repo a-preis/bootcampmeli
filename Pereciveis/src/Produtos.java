@@ -36,7 +36,7 @@ public class Produtos {
                 '}';
     }
 
-    public double calcular(int quantidadeDeProdutos){
+    public double calcular(int quantidadeDeProdutos) {
         return quantidadeDeProdutos * preco;
     }
 }

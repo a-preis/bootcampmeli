@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dakar/Dakar.iml" filepath="$PROJECT_DIR$/Dakar/Dakar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IMC/IMC.iml" filepath="$PROJECT_DIR$/IMC/IMC.iml" />
       <module fileurl="file://$PROJECT_DIR$/IdeaProjects.iml" filepath="$PROJECT_DIR$/IdeaProjects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Pereciveis/Pereciveis.iml" filepath="$PROJECT_DIR$/Pereciveis/Pereciveis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PraticaAnimais/PraticaAnimais.iml" filepath="$PROJECT_DIR$/PraticaAnimais/PraticaAnimais.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PraticaExcecoes/PraticaExcecoes.iml" filepath="$PROJECT_DIR$/PraticaExcecoes/PraticaExcecoes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PraticaImpressora/PraticaImpressora.iml" filepath="$PROJECT_DIR$/PraticaImpressora/PraticaImpressora.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PraticaStreamCarros/PraticaStreamCarros.iml" filepath="$PROJECT_DIR$/PraticaStreamCarros/PraticaStreamCarros.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PraticoBanco/PraticoBanco.iml" filepath="$PROJECT_DIR$/PraticoBanco/PraticoBanco.iml" />
     </modules>
   </component>
 </project>

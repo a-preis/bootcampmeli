@@ -4,14 +4,14 @@ import java.math.BigDecimal;
 
 public class Veiculo {
 
-    private BigDecimal velocidade;
-    private BigDecimal aceleracao;
+    private double velocidade;
+    private double aceleracao;
     private double anguloGiro;
     private String placa;
-    private BigDecimal peso;
+    private double peso;
     private Integer rodas;
 
-    public Veiculo(BigDecimal velocidade, BigDecimal aceleracao, double anguloGiro, String placa, BigDecimal peso, Integer rodas) {
+    public Veiculo(double velocidade, double aceleracao, double anguloGiro, String placa, double peso, Integer rodas) {
         this.velocidade = velocidade;
         this.aceleracao = aceleracao;
         this.anguloGiro = anguloGiro;
@@ -32,11 +32,11 @@ public class Veiculo {
                 "}\n";
     }
 
-    public BigDecimal getVelocidade() {
+    public double getVelocidade() {
         return velocidade;
     }
 
-    public BigDecimal getAceleracao() {
+    public double getAceleracao() {
         return aceleracao;
     }
 
@@ -44,7 +44,11 @@ public class Veiculo {
         return placa;
     }
 
-    public BigDecimal getPeso() {
+    public double getAnguloGiro() {
+        return anguloGiro;
+    }
+
+    public double getPeso() {
         return peso;
     }
 

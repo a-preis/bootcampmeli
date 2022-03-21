@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Veiculo veiculo1 = new Veiculo("Ford", "Fiesta", 1000);
         Veiculo veiculo2 = new Veiculo("Ford", "Focus", 1200);

@@ -1,4 +1,4 @@
-public abstract class Documento implements Imprimivel{
+public abstract class Documento implements Imprimivel {
 
     private String tipo;
 

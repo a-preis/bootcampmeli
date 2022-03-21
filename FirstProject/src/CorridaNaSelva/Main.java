@@ -2,9 +2,9 @@ import java.util.*;
 
 public class Main {
 
-    public static List<HashMap<String,Object>> circuitoPequeno = new ArrayList<>();
-    public static List<HashMap<String,Object>> circuitoMedio = new ArrayList<>();
-    public static List<HashMap<String,Object>> circuitoAvancado = new ArrayList<>();
+    public static List<HashMap<String, Object>> circuitoPequeno = new ArrayList<>();
+    public static List<HashMap<String, Object>> circuitoMedio = new ArrayList<>();
+    public static List<HashMap<String, Object>> circuitoAvancado = new ArrayList<>();
 
     public static Scanner scanner = new Scanner(System.in);
 
@@ -47,8 +47,7 @@ public class Main {
         int idadeParticipante = scanner.nextInt();
         if (categoriaEscolhida == 3 && idadeParticipante < 18) {
             System.out.println("nao permitido");
-        }
-        else {
+        } else {
             novoParticipante.put("idade", idadeParticipante);
             System.out.println("RG: ");
             novoParticipante.put("RG", scanner.next());
@@ -68,12 +67,10 @@ public class Main {
             if (categoriaEscolhida == 1) {
                 novoParticipante.put("numeroIncricao", circuitoPequeno.size() + 1);
                 circuitoPequeno.add(novoParticipante);
-            }
-            else if (categoriaEscolhida == 2) {
+            } else if (categoriaEscolhida == 2) {
                 novoParticipante.put("numeroIncricao", circuitoMedio.size() + 1);
                 circuitoMedio.add(novoParticipante);
-            }
-            else {
+            } else {
                 novoParticipante.put("numeroIncricao", circuitoAvancado.size() + 1);
                 circuitoAvancado.add(novoParticipante);
             }
@@ -85,18 +82,16 @@ public class Main {
         String valor = "";
 
         if (circuito == 1) {
-            if (idade < 18 )
+            if (idade < 18)
                 valor = "1300";
             else
                 valor = "1500";
-        }
-        else if (circuito == 2) {
-            if (idade < 18 )
+        } else if (circuito == 2) {
+            if (idade < 18)
                 valor = "2000";
             else
                 valor = "2300";
-        }
-        else if (circuito == 3) {
+        } else if (circuito == 3) {
             valor = "2800";
         }
         return valor;
@@ -193,7 +188,7 @@ public class Main {
         }
     }
 
-    public static void calculoValorPorCircuito(List<HashMap<String,Object>>circuito, String rg) {
+    public static void calculoValorPorCircuito(List<HashMap<String, Object>> circuito, String rg) {
         for (int i = 0; i < circuito.size(); i++) {
             HashMap inscrito;
             inscrito = circuito.get(i);

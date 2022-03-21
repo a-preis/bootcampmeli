@@ -1,4 +1,4 @@
-public class Pereciveis extends Produtos{
+public class Pereciveis extends Produtos {
 
     int diasParaVencer;
 
@@ -17,7 +17,7 @@ public class Pereciveis extends Produtos{
 
     @Override
     public String toString() {
-        return  super.toString() +
+        return super.toString() +
                 " Pereciveis{" +
                 "diasParaVencer=" + diasParaVencer +
                 '}';

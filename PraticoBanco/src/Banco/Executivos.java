@@ -1,6 +1,6 @@
 package Banco;
 
-public class Executivos extends Cliente{
+public class Executivos extends Cliente {
 
     Deposito deposito = new Deposito();
     Transferencia transferencia = new Transferencia();

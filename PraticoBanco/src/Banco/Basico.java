@@ -10,7 +10,7 @@ public class Basico extends Cliente {
         super(nome, cpf, id);
     }
 
-    public void consultaBasico(){
+    public void consultaBasico() {
         consultaEmSaldo.consultandoEmSaldo();
     }
 

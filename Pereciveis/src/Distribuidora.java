@@ -31,7 +31,7 @@ public class Distribuidora {
         produtos.add(produto9);
         produtos.add(produto10);
 
-        for (Produtos produto : produtos){
+        for (Produtos produto : produtos) {
             System.out.println(produto.toString());
         }
 

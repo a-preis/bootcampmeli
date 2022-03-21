@@ -1,10 +1,13 @@
 package Banco;
 
 public interface Transacao {
-    default boolean transacaoOk()  {
+    default boolean transacaoOk() {
         return true;
-    };
-    default boolean transacaoNaoOk(){
+    }
+
+    ;
+
+    default boolean transacaoNaoOk() {
         return false;
     }
 }

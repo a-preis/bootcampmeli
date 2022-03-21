@@ -5,21 +5,21 @@ import java.util.Map;
 
 public class ExampleHashMap {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         // Hashmap
-        HashMap<String,int[]> cities = new HashMap<String,int[]>();
+        HashMap<String, int[]> cities = new HashMap<String, int[]>();
         String saopaulo = "sao paulo";
         int[] tmp = {29, 34};
-        cities.put(saopaulo,tmp);
+        cities.put(saopaulo, tmp);
 
-        for(HashMap.Entry<String, int[]> pair : cities.entrySet()) {
+        for (HashMap.Entry<String, int[]> pair : cities.entrySet()) {
             int[] lista = pair.getValue();
             System.out.println(pair.getKey() + " " + pair.getValue());
         }
 
-        HashMap<String,int[]> map = new HashMap<String,int[]>();
+        HashMap<String, int[]> map = new HashMap<String, int[]>();
 
-        for(Map.Entry<String, int[]> pair : map.entrySet()) {
+        for (Map.Entry<String, int[]> pair : map.entrySet()) {
             System.out.println(pair.getKey() + " " + pair.getValue());
         }
     }
